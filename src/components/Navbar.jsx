@@ -7,11 +7,11 @@ const Navbar = () => {
 
                 <div className="logo font-bold text-white text-2xl">
                     <span className='text-orange'> &lt;</span>
-                   
+
                     <span>Safe</span><span className='text-orange'>ZONE/&gt;</span>
-                  
-                    
-                    </div>
+
+
+                </div>
                 {/* <ul>
                     <li className='flex gap-4 '>
                         <a className='hover:font-bold' href='/'>Home</a>
@@ -19,11 +19,15 @@ const Navbar = () => {
                         <a className='hover:font-bold' href='#'>Contact</a>
                     </li>
                 </ul> */}
-                <button className='text-white bg-orange my-5 mx-1 rounded-full flex  justify-between items-center ring-white ring-1'> 
-                    <img className='w-10 ' src="/icons/github.png" alt="github logo" />
-                    <span className='font-bold pr-2 pl-1'>GitHub</span>
-                    
-                </button>
+                <a href="https://github.com/Soumojit-Poddar/SafeZONE-password_manager"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <button className='text-white bg-orange my-5 mx-1 rounded-full flex  justify-between items-center ring-white ring-1'>
+                        <img className='w-10 ' src="/icons/github.png" alt="github logo" />
+                        <span className='font-bold pr-2 pl-1'>GitHub</span>
+
+                    </button>
+                </a>
             </div>
         </nav>
     )
